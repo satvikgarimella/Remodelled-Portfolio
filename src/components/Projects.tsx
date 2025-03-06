@@ -32,7 +32,7 @@ export const projectsData: Project[] = [
     id: 4,
     title: "Weather App",
     description: "A mobile application built using React Native, designed to provide users with real-time weather updates. By integrating the OpenWeatherMap API, the app fetches current weather conditions and forecasts based on the user's location or manually searched cities. Features a clean and responsive UI, leveraging native components for a seamless user experience.",
-    image: "public/lovable-uploads/a9f2df42-1bea-4235-80d5-1488a18cc2f3.png",
+    image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     tags: ["React Native", "OpenWeatherMap API", "Mobile", "UI/UX"],
     link: "#",
     githubRepo: "https://github.com/satvikgarimella/Weather-app"
