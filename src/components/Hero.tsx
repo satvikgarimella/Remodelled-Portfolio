@@ -58,7 +58,7 @@ const Hero = () => {
 
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight tracking-tighter">
           <AnimatedText text="Hello, " className="inline-block" speed={50} />
-          <AnimatedText text="I'm " className="inline-block" delay={1000} speed={50} />
+          <AnimatedText text="I'm\u00A0" className="inline-block" delay={1000} speed={50} />
           <AnimatedText
             text="Satvik Garimella!"
             className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-300 inline-block"
