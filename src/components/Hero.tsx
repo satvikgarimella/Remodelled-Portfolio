@@ -69,7 +69,7 @@ const Hero = () => {
             speed={50}
           />
           <AnimatedText 
-            text="Satvik Garimella!" 
+            text=" Satvik Garimella!" 
             className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-300 inline-block"
             delay={1200}
             speed={50}
