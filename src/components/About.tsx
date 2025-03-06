@@ -9,7 +9,7 @@ const aboutContent = {
     "With strong communication and collaborative skills, I have successfully led multiple projects, showcasing creativity and teamwork. Committed to continuous learning, I bring technical expertise and innovative problem solving to every challenge and opportunity.",
     "I'm particularly passionate about AI and autonomy. My next project will involve building an autonomous drone, which aligns with my interest in pushing the boundaries of what's possible with today's technology."
   ],
-  name: "Satvik Garimella"
+  name: " Satvik Garimella"
 };
 
 const About = () => {
