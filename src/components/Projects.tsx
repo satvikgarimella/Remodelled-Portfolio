@@ -29,7 +29,7 @@ export const projectsData: Project[] = [
     id: 4,
     title: "Weather App",
     description: "A mobile application built using React Native, designed to provide users with real-time weather updates...",
-    image: "https://images.unsplash.com/photo-1606761568499-5b443f6f731c",
+    image: "https://images.unsplash.com/photo-1516912481808-3406841bd33c?auto=format&fit=crop&w=1740&q=80",
     tags: ["React Native", "OpenWeatherMap API", "Mobile", "UI/UX"],
     githubRepo: "https://github.com/satvikgarimella/Weather-app"
   }
@@ -38,8 +38,10 @@ export const projectsData: Project[] = [
 const Projects = () => {
   const [filter, setFilter] = useState<string | null>(null);
 
+  // Get all unique tags using useMemo for performance optimization
   const allTags = useMemo(() => Array.from(new Set(projectsData.flatMap(p => p.tags))), []);
 
+  // Filter projects only when the filter state changes (optimization)
   const filteredProjects = useMemo(() => {
     return filter ? projectsData.filter(project => project.tags.includes(filter)) : projectsData;
   }, [filter]);
