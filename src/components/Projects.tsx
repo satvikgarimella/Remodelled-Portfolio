@@ -17,8 +17,7 @@ export const projectsData: Project[] = [
     description: "Built a cross-platform mobile app using React Native and Django that supports both iOS and Android users. Implemented real-time data synchronization with WebSocket and PostgreSQL, achieving seamless updates and secure storage. Designed an intuitive UI with React Native components that increased user retention through improved UX.",
     image: "https://images.unsplash.com/photo-1576678927484-cc907957088c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     tags: ["React Native", "Django", "PostgreSQL", "WebSocket", "Mobile"],
-    link: "#",
-    githubRepo:"https://github.com/satvikgarimella/Health-Tracker"
+    link: "#"
   },
   {
     id: 3,
